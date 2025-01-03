@@ -22,7 +22,7 @@ export default () => {
     <div className="page">
       <section className="lists">
         {movieList.map((item, Key) => (
-          <MovieRow />
+          <MovieRow key={Key} title={item.title} items={item.items} />
         ))}
       </section>
     </div>
