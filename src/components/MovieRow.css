@@ -21,7 +21,7 @@
 
 .movieRow--item img {
   width: 100%;
-  transform: scale(0.93);
+  transform: scale(0.92);
   transition: all ease 0.3s;
   cursor: pointer;
 }
