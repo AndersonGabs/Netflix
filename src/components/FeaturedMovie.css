@@ -89,3 +89,24 @@
   font-size: 18px;
   color: #999;
 }
+
+@media (max-width: 760px) {
+  .featured {
+    height: 80vh;
+    object-fit: cover;
+  }
+  .featured--name {
+    font-size: 40px;
+  }
+  .featured--info {
+    font-size: 16px;
+  }
+  .featured--description {
+    font-size: 14px;
+    max-width: 70%;
+  }
+  .featured--watchButton,
+  .featured--listButton {
+    font-size: 16px;
+  }
+}
